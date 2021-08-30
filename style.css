@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*
+ {
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+    body
+{
+    background: rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 595px;
+    min-height: 842px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .right_Side
+{
+    position: relative;
+    background: #19304F;
+    padding: 40px;
+    z-index: 1;
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: center;
+    padding-bottom: 20px;
+    
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: 10px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.profileText .imgBx img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    position: relative;
+    color: #19304F;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    left: 120px;
+    top: -110px;
+
+}
+.profileText h3
+{
+    position: relative;
+    color: #19304F;
+    font-size: 0.7em;
+    margin-top: 5px;
+    text-transform: uppercase;
+    left: 130px;
+    top: -110px;
+
+}
+.contato 
+{
+    position: relative;
+    top: -140px;
+    color: #fff;
+    left: 400px;
+    z-index: 2;
+    
+       
+}
+.title
+{
+    letter-spacing: 1px;
+    margin: 3px;
+    
+}
+.contato ul
+{
+    font-size: 0.8em;
+    position: relative;
+    
+}
+.contato ul li
+{   
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+   
+}
+.contato .icon
+{
+    width: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin: 3px;
+}
+.conhecimento
+{
+    position: relative;
+    top: -80px;
+    color: #fff;
+    left: 400px;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+.conhecimento .title
+{
+    position: relative;
+    top: -15px;
+    left: -5px;
+    font-size: 0.9em;
+    
+}
+.conhecimento ul
+{
+    font-size: 0.8em;
+    top: 40px
+    
+}
+.conhecimento hr
+{
+    width: 110px;
+    margin-bottom: 10px;
+}
+.perfil
+{
+    position: relative;
+    color: #19304F;
+    top: -350px;
+    font-size: 1em;
+    
+}
+.perfil .title
+{
+    position: relative;
+    
+}
+.educacao
+{
+    position: relative;
+    color: #19304F;
+    top: -320px;
+    font-size: 1em;
+}
+.educacao ul li
+{
+    position: relative;
+    left: 20px;
+}
+.projeto
+{
+    position: relative;
+    color: #19304F;
+    top: -300px;
+    font-size: 1em;
+}
+.projeto ul li 
+{
+    position: relative;
+    left: 20px;
+}
+.eu span
+{
+    position: relative;
+    color: #19304F;
+    top: 35px;
+    font-size: 1em;
+    left: 40px;
+}
+.eu .icon
+{
+    position: relative;
+   
+    top: 15px;
+    font-size: 1em;
+    left: 15px;
+}
